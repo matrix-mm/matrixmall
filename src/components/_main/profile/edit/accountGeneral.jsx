@@ -121,7 +121,7 @@ export default function AccountGeneral() {
       });
       const formData = new FormData();
       formData.append('file', file);
-      formData.append('upload_preset', 'rrb9kloq');
+      formData.append('upload_preset', 'ml_default');
 
       const config = {
         onUploadProgress: (progressEvent) => {
