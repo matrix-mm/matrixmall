@@ -87,7 +87,7 @@ export default function MobileSetting() {
                 <ListItem disablePadding>
                   <ListItemButton
                     onClick={() => {
-                      router.push('/dashboard');
+                      router.push('/admin/dashboard');
                     }}
                     sx={{ py: 2 }}
                   >
